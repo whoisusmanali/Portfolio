@@ -4,3 +4,4 @@ Jinja2==3.1.2      # Flask uses Jinja2 for templating
 gunicorn==20.1.0   # For deploying the app in production (useful on platforms like Heroku)
 WTForms==3.0.1     # For handling forms (useful if you need a contact form)
 Flask-Bootstrap==3.3.7.1  # For integrating Bootstrap easily into Flask (optional if using CDN)
+Werkzeug==2.2.2
