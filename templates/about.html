@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="about-section">
+    <div class="container">
+        <!-- Profile Image Section -->
+        <div class="profile-image">
+            <img src="{{ url_for('static', filename='img/profile.jpg') }}" alt="Usman Ali">
+        </div>
+
+        <!-- Profile Information Section -->
+        <div class="profile-info">
+            <h1>Usman Ali</h1>
+            <p>I am an experienced Data Scientist with a strong background in analyzing data, building predictive models, and delivering insights that help businesses grow. I specialize in using tools like Python, SQL, and machine learning frameworks to solve complex problems, identify trends, and make data-driven decisions.</p>
+
+            <p>I have hands-on experience with machine learning, deep learning, and natural language processing, allowing me to develop and deploy models that improve business outcomes. I work closely with teams to provide clear, actionable insights, helping organizations make smarter decisions and improve operations.</p>
+
+<p>My goal is to use data to find opportunities, solve challenges, and drive success.</p>
+
+            <!-- Skills -->
+            <h2>Skills</h2>
+            <ul>
+                <li>Python, Flask, Django</li>
+                <li>Cloud (AWS, Azure)</li>
+                <li>Python (Pandas, Numpy, Matplotlib, Seaborn, Plotly, Math, Scipy)</li>
+                <li>Machine Learning (Scikit-learn, TensorFlow, PyTorch, OpenCV)</li>
+                <li>SQL, MySQL</li>
+                <li>Data (Data Analytics, Data Analysis, Business Requirements</li>
+                <li>Data Visualization (Tableau, Power BI)</li>
+                <li>Natural Language Processing, Deep Learning, Machine Learning, Predictive Modeling</li>
+            </ul>
+
+            <!-- Experience -->
+            <h2>Experience</h2>
+            <p><strong>Data Scientist - PRAMA Enterprises</strong> <br> (July 2022 - Aug 2023)</p>
+            <li>Collaborated with cross-functional teams to design AI solutions tailored to project requirements.</li>
+            <li>Developed and fine-tuned neural network architectures using PyTorch for diverse applications.</li>
+            <li>Trained, validated, and optimized machine learning models to ensure high performance and accuracy.</li>
+            <li>Troubleshot and resolved model performance issues through iterative testing and improvement.</li>
+            <li>Integrated AI models into production systems, contributing to scalable AI pipelines and workflows</li>
+
+            <!-- Education -->
+            <h2>Education</h2>
+            <p><strong>Master's of Applied Computing</strong> - University of Windsor, Ontario (2023 - Present)</p>
+            <p><strong>Bachelor of Science in Computer Science</strong> - Riphah International University, Pakistan (2018 - 2022)</p>
+        </div>
+    </div>
+</section>
+{% endblock %}
