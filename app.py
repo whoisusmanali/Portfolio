@@ -1,14 +1,5 @@
-from flask import Flask, render_template
-
-app = Flask(__name__)
-
 from flask import Flask, render_template, request
-
-app = Flask(__name__)
-
-
-from flask import Flask, render_template
-
+from urllib.parse import quote as url_quot
 app = Flask(__name__)
 
 @app.route('/')
